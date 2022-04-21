@@ -5,10 +5,11 @@
 */
 int main(void)
 {
-int i = _putchar;
+int i;
+i = _putchar;
 
-putchar(i);
-putchar("\n");
+_putchar(i);
+_putchar("\n");
 
 return (0);
 }
