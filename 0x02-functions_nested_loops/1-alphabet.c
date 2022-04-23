@@ -6,13 +6,17 @@
  *
  * Return: Always 0.
  */
-int main(void)
+
+void print_alphabet(void)
 {
-int alpha;
-for (alpha = a; alpha <= z; alpha++)
+int c;
+for (int c = 97; c <= 122; ++c)
 {
-_putchar ("alpha");
+_putchar ("c");
 _putchar ("\n");
 }
+int main(void)
+{
+print_alphabet();
 return (0);
 }
