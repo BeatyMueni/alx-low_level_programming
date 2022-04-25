@@ -12,9 +12,9 @@ int n, co;
 co = 0;
 while (co < 10)
 {
-for (n = 'a'; n = 'z'; n++)
+for (n = 'a' ; n = 'z' ; n++)
 {
-putchar(n);
+_putchar(n);
 }
 
 co++;
