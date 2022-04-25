@@ -7,7 +7,8 @@
  */
 void print_alphabet_x10(void)
 {
-int alphabet, count;
+int alphabet;
+int count;
 
 count = 0;
 while (count < 10)
