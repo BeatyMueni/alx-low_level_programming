@@ -42,7 +42,7 @@ _putchar (',');
 _putchar (' ');
 }
 }
-i}
+}
 _putchar ('\n');
 }
 }
