@@ -11,7 +11,7 @@ for (i = 0; i < 49; i++)
 {
 printf("%ld, ", a);
 sum = a + b;
-a = b:
+a = b;
 b = sum;
 if (i == 48)
 printf("%ld\n", a);
