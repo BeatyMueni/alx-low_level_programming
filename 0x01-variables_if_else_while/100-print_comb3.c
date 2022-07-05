@@ -2,12 +2,11 @@
 
 /**                                                                 
 
-* main - Prints all possiblecombinations of two different digits
-*        in ascending order & separated by a space                                              
-
+* main - Prints all possiblecombinations of two different digits                   
 * Return: Always 0 (Success)                                        
 
-*/                                                                  
+*/
+
 int main(void)                                                      
 {                                                     
 int num1, num2;
