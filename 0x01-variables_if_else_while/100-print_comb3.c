@@ -2,24 +2,31 @@
 
 /**                                                                 
 
-* main - Entry point                                                
+* main - Prints all possiblecombinations of two different digits
+*        in ascending order & separated by a space                                              
 
 * Return: Always 0 (Success)                                        
 
 */                                                                  
 int main(void)                                                      
 {                                                     
-int number;                                 
-for (number = 01; number <= 09; number++)                           
+int num1, num2;
+
+for (num1 = 0; num1 <= 9; num1++)                           
 {                                                                 
-putchar(number);                                                    
-if (number == 01)                                                  
-{                                                                   
-break;                                                             
-}                                                                   
+for (num2 = num1 + 1; num2 < 10; num2++)
+{
+	putchar((num1 % 10) + '0');
+	putchar((num2 % 10) + '0');
+
+if (num1 == 8 && num2 == 9)
+continue;	                                                          
+                                                    
 putchar(',');                                                       
 putchar(' ');                                                      
-}                                                                   
+} 
+}
 putchar('\n');                                                     
 return (0);                                                         
 }
+
