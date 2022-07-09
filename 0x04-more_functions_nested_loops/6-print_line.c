@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * pint_line - function that draws a straight line in terminal
- * @n: times to print
+ * print_line - function that draws a straight line
+ * @n: number of times to print
  * Return: straight line
  */
 
@@ -12,7 +12,7 @@ void print_line(int n)
 
 	if (n <= 0)
 	{
-		_putchar('\n');
+		_putchar('\n')
 	}
 	else
 	{
@@ -23,4 +23,3 @@ void print_line(int n)
 		_putchar('\n');
 	}
 }
-
