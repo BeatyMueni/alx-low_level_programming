@@ -47,9 +47,9 @@ int pri(int n, int i)
 {
 	if (n % i == 0)
 		return (0);
-	else if (_sqrt(n,1) < i)
+	else if (_sqrt(n, 1) < i)
 		return (1);
 	else
-		return (pri(n,i + 1));
+		return (pri(n, i + 1));
 }
 
